@@ -43,11 +43,52 @@ i18next
                Time:'Time',
                Doctor:'Doctor',
                Reason:'Reason',
+               Experience:'Experience',
+
+               PatientDetails:'PatientDetails',
+               patientinfo:'patientinfo',
+               patientId:' patientId',
+               Name:'Name',
+               PhoneNumber:'PhoneNumber',
+               email:'e-mail',
+               DOB:'Date of Birt',
+               Age:'age',
+               BloodGroup:'Blood Group', 
+               AadharID:'Identifiant Aadhar',
+               LookingforaSpeacialist:'Looking for a Speacialist',
+               Noprescriptionfound:' No prescription found',
+               Prescription:'Prescription',
+               BookYourAppointment:'BookYourAppointment',
+               Experience:'Experience',
+               Dr:'Dr',
+               years:'years',
+               BookAppointment:'Book Appointment',
 
                //prev
                //report
 
                //pres
+
+
+               //doc-appointment
+               Status:'Status',
+               Actions:'Actions',
+               Approve:"Approve",
+               Reject:'Reject',
+               Report:'Report',
+               Prescription:'Prescription',
+               Reports:'Reports',
+               Prescriptions:'Prescriptions',
+               //doc-accountsettings
+               Phone:'Phone',
+               
+               
+               //change Password
+               change:'Change Password',
+               old:"Old Password",
+               newpass:"New Password",
+               confirm:"Confirm Password",
+               save:"Save Changes",
 
             }
          },
@@ -73,6 +114,7 @@ i18next
                RecentlyAccessedFiles:'சமீபத்தில் அணுகப்பட்ட கோப்புகள்',
 
                //book
+               Phone:'தொலைபேசி எண்',
                PhoneNumber:"தொலைபேசி எண்",
                SelectDate:'தேதியை தேர்வுசெய்யவும்',
                ScheduleTime:'கால அட்டவணை நேரம்',
@@ -84,11 +126,59 @@ i18next
               Time:"நேரம்",
               Reason:"காரணம்",
               Doctor:'மருத்துவர்',
+
+              PatientDetails:'நோயாளி விவரங்கள்',
+               patientinfo:'நோயாளி தகவல்',
+               patientId:'நோயாளி ஐடி',
+               Name:'பெயர்',
+               PhoneNumber:'தொலைபேசி எண்',
+               email:'மின்னஞ்சல்',
+               DOB:'பிறந்த தேதி',
+               Age:'வயது',
+               BloodGroup:'இரத்த வகை', 
+               AadharID:'ஆதார் ஐடி',
+               LookingforaSpeacialist:'நிபுணரைத் தேடுகிறது',
+               Noprescriptionfound:'மருந்துச் சீட்டு எதுவும் கிடைக்கவில்லை',
+               Prescription:'மருந்துச்சீட்டு',
+               BookYourAppointment:'உங்கள் சந்திப்பை பதிவு செய்யவும்',
+               Experience:'அனுபவம்',
+               Dr:'மருத்துவர்',
+               years:'ஆண்டுகள்',
+               BookAppointment:'புத்தக நியமனம்',
+
+              
               
 
                //report
 
                //pres
+
+
+               //doc-appointment
+               Status:'நிலை',
+               Actions:'நடவடிக்கை',
+               Approve:'ஏற்றுக்கொள்',
+               Reject:'நிராகரிக்கவும்',
+               Accepted:'',
+               Rejected:'',
+               Report:'அறிக்கை',
+               Reports:'அறிக்கைகள்',
+               Prescription:'மருந்துச்சீட்டு',
+               Prescriptions:'மருந்துச்சீட்டுகள்',
+
+               //doctor-accountsettings
+               Specialization:'',
+               join:'நிறுவனத்தில் சேர்ந்த தேதி',
+               Experience:'அனுபவங்கள்',
+               info:'உங்கள் விவரங்கள்',
+               
+                //change Password
+                change:'கடவுச்சொல்லை மாற்று',
+                old:"பழைய கடவுச்சொல்",
+                newpass:"புதிய கடவுச்சொல்",
+                confirm:"கடவுச்சொல்லை உறுதிப்படுத்தவும்",
+                save:"மாற்றங்களைச் சேமிக்கவும்",
+
             }
          },
          fr:{
@@ -128,7 +218,36 @@ i18next
                Time:'temps',
                Doctor:'médecin',
                Reason:'raison',
+              
 
+               PatientDetails:'Détails du patient',
+               patientinfo:'Informations sur les patients',
+               patientId:'Identifiant du patient',
+               Name:'nom',
+               PhoneNumber:'numéro de téléphone',
+               email:'e-mail',
+               DOB:'date de naissance',
+               Age:'âge',
+               BloodGroup:'groupe sanguin', 
+               AadharID:'Identifiant Aadhar',
+               LookingforaSpeacialist:'Vous cherchez un spécialiste',
+               Noprescriptionfound:'Aucune ordonnance trouvée',
+               Prescription:'Ordonnance',
+               BookYourAppointment:'Prenez votre rendez-vous',
+               Experience:'Expérience',
+               Dr:'médecin',
+               years:'années',
+               BookAppointment:'Prendre rendez-vous',
+               
+
+
+
+               
+
+
+           
+
+               
 
 
 
@@ -137,6 +256,16 @@ i18next
                //report
 
                //pres
+
+               //doc-appointment
+               Status:'Statut',
+               Actions:'Actions',
+               Approve:"Approuver",
+               Reject:'Rejeter',
+               Report:'Rapport',
+               Prescription:'ordonnance',
+               Reports:'Rapports',
+               Prescriptions:'ordonnances',
 
 
             }
@@ -159,6 +288,7 @@ i18next
             Gender:'लिंग',
             Email:'ईमेल',
             BloodGroup:"रक्त समूह",
+            Phone:'फ़ोन नंबर',
             PhoneNumber:'फ़ोन नंबर',
 
             RecentlyAccessedFiles:'हाल ही में एक्सेस की गई फ़ाइल',
@@ -166,7 +296,7 @@ i18next
 
             
             //book
-           book:"निर्धारित तारीख बुक करना",
+            book:"निर्धारित तारीख बुक करना",
             //PhoneNumber: "Numéro de téléphone",
              ReasonForAppointment:'नियुक्ति का कारण',
              PreviousAppointment:'Previous Appointment',
@@ -187,6 +317,35 @@ i18next
                //report
 
                //pres
+
+               //doctor-appointment
+               Status:'स्थिति',
+               Actions:'कार्रवाई',
+               Approve:'मंज़ूरी देना',
+               Reject:'अस्वीकार करना',
+               Accepted:'',
+               Rejected:'',
+               Report:'प्रतिवेदन',
+               Reports:'रिपोर्टों',
+               Prescription:'नुस्खा',
+               Prescriptions:'नुस्खे',
+
+               //doctor-accountsettings
+               Specialization:'विशेषज्ञता',
+               join:'विशेषज्ञता',
+               Experience:'अनुभव',
+               info:'व्यक्तिगत जानकारी',
+
+
+               //change Password
+               change:'पासवर्ड बदलें',
+               old:"पुराना पासवर्ड",
+               newpass:"नया पासवर्ड",
+               confirm:"पासवर्ड की पुष्टि कीजिये",
+               save:"Save",
+             
+               
+
             }
          }
            
